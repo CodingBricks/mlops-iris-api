@@ -61,5 +61,5 @@ def predict(features: IrisFeatures):
 
 @app.get("/health")
 def health():
-"""Health endpoint to check if the API is operational."""
+    """Health endpoint to check if the API is operational."""
     return {"status": "ok"}
