@@ -12,7 +12,7 @@ stop-api:
 	docker stop iris-api
 
 start-project:
-	docker-compose -p mlops up -d --build
+	docker compose -p mlops up -d --build
 
 stop-project:
-	docker-compose -p mlops down
+	docker compose -p mlops down
